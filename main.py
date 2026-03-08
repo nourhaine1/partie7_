@@ -39,5 +39,18 @@ if __name__ == "__main__":
     shop.ajouter_animal(chat3)
     print('*******après lajout de chat3*******')
     print(shop.statistique_par_type())
+    #test du fonction du decrire rononronne chanter et tout ca 
+    print ('-----les fonctions du chat-----')
+    chat1.decrire()
+    chat1.parler()
+    chat1.ronronner()
+    print ('*********les fonctions du chient*********')
+    chien1.decrire()
+    chien1.parler()
+    chien1.faire_la_patte()
+    print ('*********les fonctions du oiseau*********')
+    oi1.decrire()
+    oi1.parler()
+    oi1.chanter()
     
     
